@@ -1,0 +1,44 @@
+body{
+    background-color: whitesmoke;
+    justify-content: center;
+    padding-top: 100px;
+    display: flex;
+}
+
+#task-tracker{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+    width: 400px;
+    text-align: center;
+}
+
+#input-task, #add-button {
+      padding: 10px;
+  margin: 5px 0;
+  width: 90%;
+}
+
+#add-button{
+    background: rgb(0, 225, 255);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #eee;
+  padding: 8px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
